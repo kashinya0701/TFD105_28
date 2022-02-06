@@ -1,43 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
-</head>
-<body>
-    <!-- logo層 -->
-    <header>
-        <div class="main_logo">
-        <div class="logo">
-            <a href="./index.html" class="logo1"></a>
-
-        </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1642f9d999.js" crossorigin="anonymous"></script>
+        <title>home</title>
+    </head>
+    <body>
    
+        <header>
+        <!------------------------------------ header -------------------------------------->
+            <div class="top">
 
-    <!-- 選單列表 --> 
-        <div class="main_menu">
+             <!---------------------- logo層 ------------------------------>
+                <div class="logo">
+                     <a href="index.html" class="logo1">
+                        <img src="img/圖層 2.svg" alt="" class="pic1">
+                    </a>
+                </div>
+                   <!--logo end-->
 
-            <div class="menu1">
-                <ul>
-                    <li><a href="">美味烤餅</a></li>
-                    <li><a href="">最新消息</a></li>
-                    <li><a href="">關於</a></li>
-                    <li><a href="">手作烤餅</a></li>
-                    <li><a href="">線上訂位</a></li>
-                </ul>
+            
+        
+                <!-- 選單列表1 2 --> 
+                <div class="main_menu">
+                    <div class="menu1">
+                        <ul>
+                            <li><a href="">美味烤餅</a></li>
+                            <li><a href="">最新消息</a></li>
+                            <li><a href="">關於</a></li>
+                            <li><a href="">手作烤餅</a></li>
+                            <li><a href="">線上訂位</a></li>
+                        </ul>
+                    </div>  <!--選單1 end --> 
+
+                    <div class="menu2">
+                        <ul>
+                            <li><a href="shop.html"><i class="fas fa-user"></i></a></li>
+                            <li><a href="member.html"><i class="fas fa-shopping-bag"></i></a></li>
+                        </ul>
+                    </div>   <!--選單2 end --> 
+                </div>
+                    
             </div>
+        </header> 
+    <!--header end-->
 
-            <div class="menu2">
-                <ul>
-                    <li><a href="shop.html" class = "menu_shop"></a></li>
-                    <li><a href="member.html" class ="menu_meme" ></a></li>
-                </ul>
-            </div>
+
+        <!----------------------------------- 大圖輪播 ---------------------------------------->
+        <div class= "banner1">   
+            <img src="img/banner.svg" alt="">
+            <span class="btn left-btn"></span>
+            <span class="btn right-btn"></span>
+
+            <ul class="slick-dots">
+                <li role="presentation" class></li>
+                <li role="presentation" class></li>
+                <li role="presentation" class></li>
+                <li role="presentation" class></li>
+                <li role="presentation" class></li>
+                <li role="presentation" class></li>
+                <li role="presentation" class></li>
+                <li role="presentation" class></li>
+                <li role="presentation" class></li>
+                <li role="presentation" class></li>
+                <li role="presentation" class></li>
+                <li role="presentation" class></li>
+            </ul>        
         </div>
-    </header>
+
+        
+
+        <!------------------ main ------------------->
+
+        <div class="home_main_bgc">
+
+            <div class="home_main">
+                <img src="img/denjian.jpg" alt="">
+
+                <div class="home_main_word">
+                    <h2>本店理念:</h2>
+                    <p>本店秉持著提供顧客最平價優質食物的精神，每一片烤餅都是現點現做，同時保證食材用料新鮮，讓顧客們在假日休息之餘有個地方可以坐著交流談心。</p>
+                    <h3>by 店長:亞歷山大.夸黑</h3>
+                </div>
+            </div>
+                         
+            <!-- 店名緣由 -->
+
+            <div class="name_story">
+
+                <div class="home_main2">
+                    <div class="name_story_word">
+                        <h2>店名緣由:</h2>
+                        <p>老闆夸黑起初打算開店給予同好們一個交流以及的場地，卻遲遲想不到店名該取什麼，回想起了兒時的夢想,那便是考上哈佛大學此刻萌生了一個想法<br><br>"これ食べたら。。。みんなハバ卒"<br> 八八卒則是懶得切輸入法而誕生的產物。<br><br>這便是店名的由來。</p>
+                        <h3>by 店長:亞歷山大.夸黑</h3>
+                    </div>
+                    <img src="img/just cat.jfif" alt="">
+                </div>
+            </div>
 
 
-</body>
+            <!-- 熱門商品 -->
+
+            <div class="hot_item">
+                <h1>熱門商品</h1>
+                <div class="hot_item_pic">
+                    <img src="img/hot1.png" alt="">
+                    <img src="img/hot2.png" alt="">
+                    <img src="img/hot3.png" alt="">   
+                </div>
+                <span class="btn left-btn2"></span>
+                <span class="btn right-btn2"></span>
+                <ul class="slick-dots2" style role="tablist">
+                    <li role="presentation" ></li>
+                    <li role="presentation" ></li>
+                    <li role="presentation" ></li>
+                </ul>        
+                
+            
+            </div>
+        
+        </div>
+
+            <!-- footer  -->
+        <footer>
+            <div class="container">
+
+                <div class="footer_inner">
+                    <div class="inner_left">
+                        <div class="footer_link">
+                            <a class="contact_link" href="">聯絡我們</a>
+                            <a class="reservation_link" href="">線上訂位</a>
+                        </div>
+                        <div class="footer_logo">
+                            <a href="index.html" class="logo1">
+                                <img src="img/圖層 2.svg" alt="" class="pic1">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="inner_right">
+                        <div class="footer_map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231407.34130685634!2d121.29665639122226!3d25.008959138778188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abe6b0446815%3A0xf006dde8c27afcc7!2z57ev6IKyVGliYU1l6ZmE6Kit5Y-w5YyX6IG36KiT5Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1644158540739!5m2!1szh-TW!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer_aside">
+                    <p>本網站為緯育TibaMe前端設計工程師班第74期學員專題作品，本平台僅供學習、展示之用。<br>參考資源: hololive official shop｜米哈遊｜Pinterest</p>
+                </div>
+            </div>
+
+        </footer>
+    </body>
 </html>
