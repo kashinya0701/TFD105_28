@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    line-height: 1.6;
+    font-size: 18px;
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 24px;
+}
+
+.home_main_bgc{
+    background-color: rgba(255, 221, 68, 0.2);
+    width: 1200px;
+    margin: 0 auto;
+    padding:0 80px;
+}
+
+.food_menu_title h1{
+    text-align: center;
+    padding-top: 230px;
+    padding-bottom: 100px;
+}
+
+.food_menu ul{
+    display: flex;
+    /* border: solid aqua; */
+    flex-wrap: wrap;
+    align-content:center ;
+	justify-content: center;
+    padding-bottom: 100px;
+}
+
+.food_menu li{
+    padding: 10px 40px;
+}
+
+.food_menu li h3{
+    text-align: center;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    /* border: aqua solid; */
+    padding-bottom: 30px;
+}
+.page_title{
+    padding-right: 10px;
+}
+
+.page a{
+    padding: 0 15px;
+    /* border: aqua solid; */
+    color: black;
+}
+.page a:nth-last-child(-n+2){
+    border-left: 2px solid;
+}
