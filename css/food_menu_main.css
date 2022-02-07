@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    line-height: 1.6;
+    font-size: 18px;
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 24px;
+}
+
+.flex{
+    display: flex;
+}
+
+.home_main_bgc{
+    background-color: rgba(255, 221, 68, 0.2);
+    width: 1200px;
+    margin: 0 auto;
+    padding:0 80px;
+}
+
+.menu_detail{
+    width: 50%;
+    margin: 0 auto; 
+    padding: 10px;
+}
+.home_spc_bgc{
+    background-color: #FFDD44;
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    /* margin-top: 100px; */
+
+}
+.menu_detail_btn{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+
+.menu_detail_btn1{
+    width: 300px;
+    height: 80px;
+    background-color: #c4c4c4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.menu_detail_btn1 i{
+    font-size: 30px;
+}
+
+.num_space{
+    
+    width: 50px;
+    height: 30px;
+}
+
+.menu_detail_btn2{
+    width: 200px;
+    height: 80px;
+    background-color: #c4c4c4;
+    margin-left:50px ;
+}
+
+.menu_detail_btn2 h3{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.food_menu_detail > h1{
+    text-align: center;
+    padding-top: 230px;
+    padding-bottom: 100px;
+}
+
+.food_menu_detail_main img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.food_menu_detail_main > h2{
+    text-align: center;
+    padding-bottom: 100px;  
+
+}
+
+.menu_detail h1{
+    margin: 20px 0 60px 0;
+}
+
+.menu_detail_text{
+    margin-bottom: 60px;
+    justify-content: space-between;
+}
+
+.hot_item > h1{
+    text-align: center;
+    padding: 180px 0px;
+}
+
+.hot_item_pic{
+    display: flex;
+    /* border: black 2px solid; */
+    padding-bottom: 40px;    
+    justify-content: space-between;
+    
+}
+
+.pic{
+    /* width: 340px; */
+}
+
+.pic img{
+    width: 340px;
+    /* border: pink 2px solid; */
+    /* display: block; */
+    padding-left: 5px;
+}
+
+.hot_item{
+    /* border: black 2px solid; */
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 180px;
+    
+}
+.slick-dots2 {
+    /* border: aqua 3px solid; */
+    position: absolute;
+    bottom: 180px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    /* background: transparent; */
+    border-radius: 14px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.slick-dots2 li {
+    /* border:3px pink solid; */
+    position: relative;
+    display: inline-block;
+    background: #5a6191;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 2px 4px;
+    padding: 0;
+    cursor: pointer;
+    
+}
+
+.hot_item .left-btn2{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url(../img/banner_bg.png) repeat;
+    border-radius: 50%;
+    flex-shrink: 0;
+    z-index: 1;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.hot_item .right-btn2{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url(../img/banner_bg.png) repeat;
+    border-radius: 50%;
+    flex-shrink: 0;
+    z-index: 1;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.hot_item .left-btn2::before{
+    content: '';
+    position: absolute;
+    left:19px;
+    top:14px;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+    width: 19px;
+    height: 19px;
+    transform: rotate(45deg);
+}
+
+.hot_item .right-btn2::before{
+    content: '';
+    position: absolute;
+    left:19px;
+    top:14px;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+    width: 19px;
+    height: 19px;
+    transform: rotate(45deg);
+}
+
+
+.left-btn2{
+    /* border:2px solid aqua; */
+    position: absolute;
+    left:5px;
+    bottom: 310px;
+
+}
+
+.right-btn2{
+    /* border:2px solid pink; */
+    transform: scaleX(-1);
+    position: absolute;
+    right:0px;
+    bottom: 310px;
+}
+
