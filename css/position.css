@@ -1,0 +1,53 @@
+.home_main_bgc{
+    background-color: rgba(255, 221, 68, 0.2);
+    width: 1200px;
+    padding: 60px;
+    margin: 0 auto;
+    /* padding:0 80px; */
+    /* height: 1000px; */
+}
+
+.in{
+    padding: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.auto{
+    /* margin: 0 auto; */
+}
+
+.BGC_O{
+    background-color: rgba(255, 221, 68 );
+    width: 1200px;
+    padding: 60px;
+    margin: 0 auto;
+    /* height: 300px; */
+
+}
+
+
+
+h1{
+    text-align: center;
+    padding: 60px 0px;
+}
+
+
+
+.home_main_bgc p{
+    /* border: orange solid; */
+    margin: 50px;
+}
+
+.home_main_bgc input{
+    width: 600px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.home_main_bgc button{
+    display: block;
+    margin: 10px auto;
+}
