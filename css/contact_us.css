@@ -30,10 +30,12 @@
 .w200{
     width: 200px;
     margin: 0 auto;
+    /* border: orange solid; */
 }
 
-.w200 h2{
-    padding: 100px 0;
+.w200 h1{
+    padding:230px 0 100px 0;
+    text-align: center;
 }
 
 .group{

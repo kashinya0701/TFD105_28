@@ -7,7 +7,7 @@
     display: flex;
 }
 
-body{
+h1, h2, h3, p{
     font-family: 'Noto Sans JP', sans-serif;
     font-family: 'Noto Sans TC', sans-serif;
 }
