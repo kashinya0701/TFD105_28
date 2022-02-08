@@ -313,7 +313,7 @@
 .left-btn2{
     /* border:2px solid aqua; */
     position: absolute;
-    left:5px;
+    left:0px;
     bottom: 310px;
 
 }
@@ -322,7 +322,7 @@
     /* border:2px solid pink; */
     transform: scaleX(-1);
     position: absolute;
-    right:20px;
+    right:0px;
     bottom: 310px;
 }
 
