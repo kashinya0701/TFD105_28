@@ -60,33 +60,40 @@
                 <div class="w1200 BGC_O">
                     <div class="flex auto in">
                         <p>姓名:</p>
-                        <input type="text" placeholder="菈米歐">
+                        <input type="text" placeholder="請輸入姓名">
                     </div>
                     <div class="flex auto in">
                         <p>電話:</p>
-                        <input type="tel" placeholder="">
+                        <input type="tel" placeholder="請輸入電話">
                     </div>
 
                     <div class="flex auto in">
                         <p>人數:</p>
-                        <input type="tel" placeholder="">
+                            <input list="browsers" placeholder="請選擇人數">
+                            <datalist id="browsers">
+                              <option value="1">
+                              <option value="2">
+                              <option value="3">
+                              <option value="4">
+                              <option value="更多">
+                            </datalist>
                     </div>
 
                     <div class="flex auto in">
                         <p>日期:</p>
-                        <input type="tel" placeholder="">
+                        <input type="date">
                     </div>
 
                     <div class="flex auto in">
                         <p>時間:</p>
-                        <input type="tel" placeholder="">
+                        <input type="time">
                     </div>
                 </div>
             
             <div class="home_main_bgc">
                     <p>其他需求:</p>
-                    <input type="tel" placeholder="">   
-                    <button>button</button> 
+                    <textarea class="in" name="" cols="103" rows="10" placeholder="如有任何問題請於此輸入"></textarea><br>
+                    <input type="submit">
                     
             </div>
     
