@@ -1,6 +1,6 @@
 .home_main_bgc{
     background-color: rgba(255, 221, 68, 0.2);
-    width: 1200px;
+    width: 80%;
     padding: 60px;
     margin: 0 auto;
     /* padding:0 80px; */
@@ -19,7 +19,7 @@
 
 .BGC_O{
     background-color: rgba(255, 221, 68 );
-    width: 1200px;
+    width: 80%;
     padding: 60px;
     margin: 0 auto;
     /* height: 300px; */

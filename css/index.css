@@ -111,7 +111,7 @@
 /* main  */
 .home_main_bgc{
     background-color: rgba(255, 221, 68, 0.2);
-    width: 1200px;
+    width: 80%;
     margin: 0 auto;
     padding:0 80px;
 }
@@ -160,13 +160,16 @@
     padding-bottom: 50px;
     display: flex;
     /* align-items: center; */
+    width: 100%;
     
 }
 .home_main2{
     /* border:2px solid pink; */
+    width: 100%;
     padding: 100px 0 50px;
     display: flex;
     align-items: center;
+    /* justify-content: end; */
 }
 
 .name_story_word{
@@ -196,6 +199,7 @@
 
 .home_main2 >img{
     width: 50%;
+    /* display: block; */
 }
 
 .hot_item > h1{
@@ -207,6 +211,7 @@
     display: flex;
     /* border: black 2px solid; */
     padding-bottom: 40px;    
+    justify-content: center;
     
 }
 
