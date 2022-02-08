@@ -8,7 +8,7 @@
 
 .title_area{
 
-    width: 80%;
+    width: 1200px;
     height: 600px;
     background-color: rgba(255, 221, 68, 0.2);
     margin: 0 auto;
@@ -17,7 +17,7 @@
 }
 
 .open_time_area{
-    width: 80%;
+    width: 1200px;
     height: 600px;
     margin: 0 auto;
     text-align: center;
@@ -33,7 +33,7 @@
     padding-bottom: 20px;
 }
 .open_main_area{
-    width: 80%;
+    width: 1200px;
     height: 600px;
     margin: 0 auto;
     background-color: rgba(255, 221, 68, 0.2);
@@ -56,7 +56,7 @@
 
 
 .think_area{
-    width: 80%;
+    width: 1200px;
     height: 600px;
     margin: 0 auto;
     /* border: 2px solid; */

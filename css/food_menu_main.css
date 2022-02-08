@@ -1,7 +1,7 @@
 
 .home_main_bgc{
     background-color: rgba(255, 221, 68, 0.2);
-    width: 80%;
+    width: 1200px;
     margin: 0 auto;
     padding:0 80px;
 }
@@ -13,7 +13,7 @@
 }
 .home_spc_bgc{
     background-color: #FFDD44;
-    width: 80%;
+    width: 1200px;
     margin: 0 auto;
     padding-bottom: 50px;
     /* margin-top: 100px; */
