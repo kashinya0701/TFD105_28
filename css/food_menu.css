@@ -27,6 +27,7 @@
 
 .food_menu li h3{
     text-align: center;
+    color: black;
 }
 
 .page{
@@ -42,7 +43,6 @@
 .page a{
     padding: 0 15px;
     /* border: aqua solid; */
-    color: black;
 }
 .page a:nth-last-child(-n+2){
     border-left: 2px solid;
