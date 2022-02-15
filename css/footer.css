@@ -13,9 +13,8 @@ footer{
     align-items: center;
     justify-content: center;
     padding-bottom: 100px; 
-
-
 }
+
 
 .inner_left{
     /* border: 2px solid aqua;   */
@@ -24,6 +23,7 @@ footer{
 }
 .inner_right{
     /* border: 2px solid pink; */
+    padding-left: 20px;
     overflow: hidden;
 }
 .footer_link a{

@@ -1,7 +1,7 @@
 .home_main_bgc{
     background-color: rgba(255, 221, 68, 0.2);
     width: 1200px;
-    padding: 60px;
+    padding-bottom: 60px;
     margin: 0 auto;
     /* padding:0 80px; */
     /* height: 1000px; */
@@ -43,21 +43,25 @@ h1{
 
 .home_main_bgc p{
     /* border: orange solid; */
-    margin: 50px;
+    padding-bottom: 50px;
 }
 
-.home_main_bgc input:first-child{
+/* .home_main_bgc input:first-child{
     width: 600px;
     height: 200px;
     display: block;
-    margin: 0 auto;
-}
+    margin: 20px auto;
+} */
 
 .home_main_bgc button{
     display: block;
-    margin: 10px auto;
+    margin: 20px auto;
 }
 
 .home_main_bgc{
     text-align: center;
+}
+
+.in2{
+    margin-bottom:10px;
 }
