@@ -3,7 +3,7 @@
     background-color: rgba(255, 221, 68, 0.2);
     width: 1200px;
     margin: 0 auto;
-    padding:0 80px;
+
 }
 
 .menu_detail{
@@ -197,7 +197,7 @@
 .left-btn2{
     /* border:2px solid aqua; */
     position: absolute;
-    left:0px;
+    left:20px;
     bottom: 310px;
 
 }
@@ -206,7 +206,7 @@
     /* border:2px solid pink; */
     transform: scaleX(-1);
     position: absolute;
-    right:0px;
+    right:20px;
     bottom: 310px;
 }
 
