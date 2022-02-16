@@ -22,12 +22,12 @@
 }
 
 .food_menu li{
-    padding: 10px 40px;
+    padding: 10px 40px 20px;
 }
 
 .food_menu li h3{
     text-align: center;
-    color: black;
+    
 }
 
 .page{
@@ -45,5 +45,8 @@
     /* border: aqua solid; */
 }
 .page a:nth-last-child(-n+2){
-    border-left: 2px solid;
+    border-left: 2px solid black;
+}
+h3{
+    color: black;
 }
