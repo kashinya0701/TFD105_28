@@ -1,3 +1,4 @@
+/* ================basic seting============ */
 *{
     box-sizing: border-box;
 }
@@ -22,10 +23,167 @@ p{
 }
 h1{
     font-size: 48px;
+    font-weight: bolder;
 }
 h2{
     font-size: 36px;
 }
 h3{
     font-size: 24px;
+    
 }
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* ======================== basic seting end ========================= */
+
+/* ========================header區=========================== */
+header{
+    /* border:3px solid aqua; */
+    background-color: #443426;
+    height: 200px;
+    z-index: 1; 
+}
+
+.top{
+    /* border:3px solid black;       */
+    display: flex;  
+    align-items: center; 
+    flex-basis: 100%;
+    /* justify-content: space-between; */
+    
+}
+
+.logo{
+    /* border:1px solid salmon; */
+    width: 75px;
+    margin-top: 20px;
+    margin-left: auto;
+    z-index: 2;
+}
+
+.main_menu{
+    display: flex;
+    /* border:3px solid pink; */
+    margin-left: auto;
+    
+}
+
+.menu1 ul{
+    /* border:3px solid aqua; */
+}
+
+.main_menu ul{
+    /* border:3px solid purple; */
+    display: flex;  
+}
+
+.menu2 ul{
+    /* border:3px solid violet;      */
+    padding: 0 20px;
+ 
+}
+
+.menu2 li{}
+
+.main_menu li a{
+    border: 2px solid transparent;
+    display: block;
+    text-align: center;
+    padding: 0 20px; 
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    line-height: 42px;
+}
+
+
+.menu1 li a:hover{
+    border-bottom: 2px solid white;
+  
+}
+
+
+ 
+ /* @media (min-width:1200px){ 
+    .top{
+      max-width: 1140px;
+    }
+  } 
+   @media (min-width:992px){
+    .top{
+      max-width: 960px;
+    }
+  }@media (min-width:768px){
+    .top{
+      max-width: 720px;
+    }
+  }@media (min-width:576px){
+    .top{
+      max-width: 540px;
+    }
+  }  */
+
+/* =======================header區========================= */
+  /* ==================== footer區 ================== */
+
+  
+footer{
+    background-color: #ADA250;
+    padding-top: 100px; 
+}
+
+.footer_inner{
+    /* border:2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px; 
+}
+
+
+.inner_left{
+    /* border: 2px solid aqua;   */
+    padding-right: 100px;
+    /* margin: 0 auto; */
+}
+.inner_right{
+    /* border: 2px solid pink; */
+    padding-left: 20px;
+    overflow: hidden;
+}
+.footer_link a{
+    color: black;
+    font-size: 36px;
+
+}
+
+.contact_link {
+    padding-left: 21px;
+    padding-right: 4px;
+    border-right:2px solid black ;
+
+}
+
+.footer_logo img{
+    width: 75px;
+    display: block; 
+    margin:  auto;
+    padding-top: 20px;
+
+}
+
+
+.footer_aside{
+    background-color: #98610E;
+}
+.footer_aside p{
+    text-align: center;
+}
+
+
+/* ===================footer區==================== */
