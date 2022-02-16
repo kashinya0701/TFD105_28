@@ -49,6 +49,15 @@ header{
     z-index: 1; 
 }
 
+
+@media (max-width:920px) {
+    .main_menu .menu1, .menu2 > ul > li >a{
+        display: none;
+    } 
+  
+    
+}
+
 .top{
     /* border:3px solid black;       */
     display: flex;  
@@ -137,6 +146,12 @@ footer{
     padding-top: 100px; 
 }
 
+
+@media (max-width: 767.98px){
+    .inner_right{
+        display: none;
+    }
+}
 .footer_inner{
     /* border:2px solid black; */
     display: flex;
@@ -150,6 +165,7 @@ footer{
     /* border: 2px solid aqua;   */
     padding-right: 100px;
     /* margin: 0 auto; */
+    flex-shrink: 0;
 }
 .inner_right{
     /* border: 2px solid pink; */
@@ -183,6 +199,9 @@ footer{
 }
 .footer_aside p{
     text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 
