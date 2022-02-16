@@ -1,0 +1,81 @@
+/* reset */
+body, h1, ul { margin: 0; }
+
+* { box-sizing: border-box; }
+
+ul {
+  /* list-style: none;  */
+  /* padding-left: 0;  */
+}
+
+a {
+  text-decoration: none; 
+}
+
+/* NavBar */
+nav {
+  background: #eee;
+  box-shadow: 0px 1px 3px #00000088;
+}
+
+  h1 { /* Logo */
+    float: left;
+    padding-left: 50px;
+    line-height: 50px;
+  }
+
+/* 隱藏 checkbox */
+input {
+  display: none;
+}
+
+/* 漢堡按鈕 */
+label {
+  float: right;
+  padding-right: 50px;
+  line-height: 50px;
+  cursor: pointer;
+  display: none;
+}
+  .fas{
+    /* border: 2px solid aqua; */
+    font-size: 30px;   
+    vertical-align: middle;  
+  }
+
+  @media (max-width: 720px) {
+      label{
+          display: inline-block;
+      }
+  }
+
+/* 選單列 */
+.menu {
+  clear: both;
+  background: #fff;
+  max-height: 0;
+  overflow: hidden;
+  transition: .5s; /* 動畫秒數 */
+}
+ .menu li {
+    text-align: center;
+    border-bottom: 1px solid #efefef;
+ }
+    a {
+      display: block;
+      padding: 10px 0;
+      font-size: 18px;
+      color: #5d5d5d;
+    }
+      a:hover {
+        background: #5d5d5d;
+        color: #fff;
+      }
+    
+      .menu {
+        max-height: 0;
+        overflow: hidden;
+      }
+      input:checked ~ .menu {
+        max-height: 300px;
+      }
