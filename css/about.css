@@ -1,11 +1,5 @@
 
-/* main  */
-.home_main_bgc{
-    background-color: rgba(255, 221, 68, 0.2);
-    width: 80%;
-    margin: 0 auto;
-    padding:0 80px;
-}
+
 .about{
     padding-bottom: 50px;
     /* border:black solid; */
