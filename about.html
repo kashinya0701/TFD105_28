@@ -15,40 +15,74 @@
     </head>
 <body>
     <header>
+            
         <!------------------------------------ header -------------------------------------->
             <div class="top">
-
-             <!---------------------- logo層 ------------------------------>
-                <div class="logo">
-                     <a href="index.html" class="logo1">
-                        <img src="img/Logo.svg" alt="" class="pic1">
-                    </a>
-                </div>
-                   <!--logo end-->
-
+                
+                   
             
-        
-                <!-- 選單列表1 2 --> 
-                <div class="main_menu">
-                    <div class="menu1">
-                        <ul>
-                            <li><a href="food_menu.html">美味烤餅</a></li>
-                            <li><a href="news.html">最新消息</a></li>
-                            <li><a href="about.html">關於</a></li>
-                            <li><a href="DIY.html">手作烤餅</a></li>
-                            <li><a href="position.html">線上訂位</a></li>
-                        </ul>
-                    </div>  <!--選單1 end --> 
+             <!---------------------- logo層 ------------------------------>
+                <nav>
+                    <div class="logo">
+                        <a href="index.html" class="logo1">
+                            <img src="img/Logo.svg" alt="" class="pic1">
+                        </a>
+                    </div>
+                    <!--logo end-->
+                
+                
+            
+                    <!-- 選單列表1 2 --> 
+                    <div class="main_menu">
+                        <div class="menu1">
+                            <ul>
+                                <li><a href="food_menu.html">美味烤餅</a></li>
+                                <li><a href="news.html">最新消息</a></li>
+                                <li><a href="about.html">關於</a></li>
+                                <li><a href="DIY.html">手作烤餅</a></li>
+                                <li><a href="position.html">線上訂位</a></li>
+                            </ul>
+                        </div>  <!--選單1 end --> 
 
-                    <div class="menu2">
-                        <ul>
-                            <li><a href="member.html"><i class="fas fa-user"></i></a></li>
-                            <li><a href="shop.html"><i class="fas fa-shopping-bag"></i></a></li>
-                        </ul>
-                    </div>   <!--選單2 end --> 
-                </div>
-                    
+                        <div class="menu2">
+                            <ul>
+                                <button type="button" class="hamburger_icon -on"></button>
+                                <li><a href="member.html"><i class="fas fa-user"></i></a></li>
+                                <li><a href="shop.html"><i class="fas fa-shopping-bag"></i></a></li>
+                            </ul>
+                            
+                        </div>   <!--選單2 end --> 
+                        
+                    </div>
+                </nav>
+                <!-- ----------------bar ------------------->
+                <button type="button" class="hamburger_icon -on">
+                    <span class="-hr -top"></span>
+                    <span class="-hr -middle"></span>
+                    <span class="-hr -bottom"></span>
+                </button>
+                <!------------------ bar on ------------------->
+                <button type="button" class="hamburger_icon ">
+                    <span class="-hr -top"></span>
+                    <span class="-hr -middle"></span>
+                    <span class="-hr -bottom"></span>
+                </button>
+                <!---------------- rwd menu none---------------------->
+                <ul class="ham-bar" style="display: none;">
+                    <li class="a-btn"><a href="food_menu.html">美味烤餅</a></li>
+                    <li class="p-btn"><a href="news.html">最新消息</a></li>
+                    <li class="p-btn"><a href="about.html">關於</a></li>
+                    <li class="q-btn"><a href="DIY.html">手作烤餅</a></li>
+                    <li class="d-btn"><a href="position.html">線上訂位</a></li>
+                </ul>
+
+   
+                   
+                
             </div>
+            
+           
+          
         </header> 
     <!--header end-->
         <div class="home_main_bgc">
@@ -79,8 +113,8 @@
 
 
 
-     <!-- footer  -->
-     <footer>
+      <!-- footer  -->
+      <footer>
         <div class="container">
 
             <div class="footer_inner">
@@ -102,8 +136,8 @@
                     </div>
                 </div>
                 <div class="inner_right">
-                    <div class="footer_map">
-                        <iframe class="fb" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkaobukao014&tabs=timeline&width=500&height=900&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="400" height="300" style="border:none;overflow:hidden;display: block;margin: 0 auto;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>   
+                    <div class="footer_fb">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkaobukao014&tabs=timeline&width=400&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="400" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> 
                     </div>
                 </div>
             </div>
@@ -112,6 +146,26 @@
                 <p>本網站為緯育TibaMe前端設計工程師班第74期學員專題作品，本平台僅供學習、展示之用。<br>參考資源: hololive official shop｜米哈遊｜Pinterest</p>
             </div>
         </div>
+
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    
+    $(function(){
+        // 點擊按鈕，選單縮放
+          $("button.hamburger_icon").on("click", function(){
+              $(".top ul.ham-bar").slideToggle();
+               });
+          });
+
+       $(function(){
+        // 按鈕狀態的切換
+          $("button.hamburger_icon").on("click", function(){
+  
+              $(this).toggleClass("-on");
+  
+          });
+      });
+    </script>
 </body>
 </html>
