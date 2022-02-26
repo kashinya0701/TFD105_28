@@ -19,7 +19,7 @@
 
 .BGC_O{
     background-color: rgba(255, 221, 68 );
-    width: 1200px;
+    width: 80%;
     padding: 60px;
     margin: 0 auto;
     /* height: 300px; */
@@ -28,7 +28,7 @@
 
 h1{
     text-align: center;
-    padding-top: 170px;
+    padding-top: 100px;
     padding-bottom: 60px;
 }
 
