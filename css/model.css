@@ -296,7 +296,7 @@ button.hamburger_icon {
 
 .ham-bar {
     display: inline-block;
-    background-color: rgba(255, 221, 68, 0.2);
+    background-color: rgba(255, 221, 68, 0.8);
     text-align: center;
     display: none;
     /* margin-top: 8px; */
@@ -315,7 +315,7 @@ button.hamburger_icon {
     padding-bottom: 5px;
 }
 .ham-bar li:hover{
-	background-color: rgba(68, 52, 38, 0.8);  
+	background-color: rgba(68, 52, 38, 1);  
 } 
 ul a:hover{
 	color: lightcyan;	
