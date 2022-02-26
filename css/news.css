@@ -3,7 +3,7 @@
 .home_main_title h1{
     display: block;
     text-align: center;
-    padding-top: 230px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
@@ -15,13 +15,14 @@
 }
 
 .home_main_title  li{
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 
 .home_main_title p{
     color: red;    
     text-align: center;
+    padding: 40px;
 
 
 }

@@ -1,11 +1,15 @@
 
 /* 大圖輪播 */
-.banner1{
+/* .banner1{
     display: flex;
     align-items: center;
     position: relative;
 
     
+} */
+
+.test{
+    position: relative;
 }
 
 .banner1 .left-btn{
@@ -113,7 +117,7 @@
 
 .home_main{
     /* border:2px solid black; */
-    padding: 300px 80px 0px;
+    padding: 100px 80px 0px;
     display: flex;
     align-items: center;
 
@@ -200,7 +204,7 @@
 
 .hot_item > h1{
     text-align: center;
-    padding: 180px 0px;
+    padding: 90px 0px;
 }
 
 .hot_item_pic{
@@ -224,13 +228,12 @@
     /* border: black 2px solid; */
     position: relative;
     overflow: hidden;
-    padding-bottom: 180px;
     
 }
 .slick-dots2 {
     /* border: aqua 3px solid; */
     position: absolute;
-    bottom: 180px;
+    bottom: -5px;
     display: flex;
     padding: 0;
     margin: 0;
@@ -253,6 +256,7 @@
     margin: 2px 4px;
     padding: 0;
     cursor: pointer;
+
     
 }
 
@@ -266,6 +270,7 @@
     z-index: 1;
     border: 1px solid white;
     cursor: pointer;
+    /* position: absolute; */
 
 }
 .hot_item .right-btn2{
@@ -310,7 +315,7 @@
     /* border:2px solid aqua; */
     position: absolute;
     left:20px;
-    bottom: 310px;
+    bottom: 250px;
 
 }
 
@@ -319,7 +324,6 @@
     transform: scaleX(-1);
     position: absolute;
     right:20px;
-    bottom: 310px;
+    bottom: 250px;
 }
-
 

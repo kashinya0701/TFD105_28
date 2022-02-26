@@ -1,7 +1,7 @@
 
 
 .home_main_bgc{
-    width: 100%;
+    width: 80%;
     /* height: 600px; */
 }
 
@@ -10,7 +10,10 @@
 }
 
 .flex{
+    
     display: flex;
+    justify-self: center;
+    align-items: center;
 }
 
 .w600{
@@ -54,9 +57,11 @@
     line-height: 1.6;
 }
 
-.pic {
-    background-image: url(../img/pic_1533803047_31031.png);
-    width: 600px;
-    height: 400px;
-    background-size:contain;
+.pic IMG{
+    /* background-image: url(../img/pic_1533803047_31031.png); */
+    width: 90%;
+
+    /* background-size:contain; */
+    background-repeat: no-repeat;
 }
+
