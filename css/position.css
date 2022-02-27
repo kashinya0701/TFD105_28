@@ -58,3 +58,7 @@ h1{
 .in2{
     margin-bottom:10px;
 }
+
+.home_main_bgc textarea{
+    resize: none;
+}
