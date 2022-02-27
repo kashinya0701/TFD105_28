@@ -51,7 +51,7 @@
                             <div class="menu2">
                                 <ul>
                                     <button type="button" class="hamburger_icon -on"></button>
-                                    <li><a href="member.html"><i class="fas fa-user"></i></a></li>
+                                    <li><a class= "btn popup-btn"href="#open"><i class="fas fa-user"></i></a></li>
                                     <li><a href="shop.html"><i class="fas fa-shopping-bag"></i></a></li>
                                 </ul>
                                 
@@ -80,7 +80,36 @@
                         <span class="-hr -middle"></span>
                         <span class="-hr -bottom"></span>
                     </button>
-       
+                   <!-- 會員彈窗  -->
+                    <div class="popup-wrap" id="open" style="display: none;">
+                        <div class="popup-box transform-out">
+                          <button class="login">登入</button>
+                          <button class="signup">註冊</button>
+                          <form action="" class="login-form">
+                            <p><input type="account" required=""><label for="">帳號:</label></p>
+                            <p> <input type="password" required=""><label for="">密碼:</label></p>
+                              <div class="checkbox"><input type="checkbox">記住我<a href="#">忘記密碼</a></div>
+                              <div class="btns">
+                              <button>Log in with <i class="fa fa-facebook-official" aria-hidden="true"></i></button><br>
+                              <button>Log in with <i class="fa fa-google" aria-hidden="true"></i></button><br>
+                              <button>Log in</button>
+                              </div>
+                          </form>
+                      
+                          <form action class="signup-form">
+                            <p><label for="">信箱:</label> <input type="email" required=""></p>
+                            <p><label for="">密碼:</label> <input type="password" required=""></p>
+                            <p><label for="">確認密碼:</label><input type="password" required=""></p>
+                            <div class="btns">
+                              <button>Sign up with <i class="fa fa-facebook-official" aria-hidden="true"></i></button><br>
+                              <button>Sign up with <i class="fa fa-google" aria-hidden="true"></i></button><br>
+                              <button>Sign up</button>
+                            </div>
+                          </form>
+                            <a class="close-btn popup-close" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                        </div>
+                       </div>
+                      
                        
                     
                 </div>
@@ -249,82 +278,11 @@
 
      
     
-  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-   
+<script src="./js/index.js"></script>
 
-    <script>
-    
-    $(function( ){
-        // 點擊按鈕，選單縮放
-          $("button.hamburger_icon").on("click", function(){
-              $(".top ul.ham-bar").slideToggle();
-               });
-          });
-
-       $(function(){
-        // 按鈕狀態的切換
-          $("button.hamburger_icon").on("click", function(){
   
-              $(this).toggleClass("-on");
-  
-          });
-      });
-
-       //  大圖輪播
-       
-    
-
-    
-    $("#one").owlCarousel({
-
-        loop: true, // 循環播放
-        margin: 0, // 外距 10px
-        nav: false, // 顯示點點
-        autoplay: true, // 自動輪播
-        autoplaySpeed: 1000,
-        autoplayTimeout: 3000, // 切換時間
-        autoplayHoverPause: true, // 滑鼠經過時暫停
-        responsive: {
-            0: {
-            items: 1 // 螢幕大小為 0~600 顯示 1 個項目
-            },
-            600: {
-            items: 1 // 螢幕大小為 600~1000 顯示 1 個項目
-            },
-            1000: {
-            items: 1 // 螢幕大小為 1000 以上 顯示 1 個項目
-            }
-        } 
-    });
-    var dots = $('.owl-dots').css('position', 'absolute').css('bottom', '5px');
-    dots.css('left', 'calc(50% - ' + dots.width()/2+'px)');
-
-    $("#two").owlCarousel({
-
-        loop: true, // 循環播放
-        margin: 0, // 外距 10px
-        nav: false, // 顯示點點 
-        autoplay: true, // 自動輪播
-        autoplaySpeed: 1000,
-        autoplayTimeout: 3000, // 切換時間
-        autoplayHoverPause: true, // 滑鼠經過時暫停
-        prevArrow: '<span class="btn left-btn2"></span>',
-        nextArrow: '<span class="btn right-btn2"></span>',
-        responsive: {
-            0: {
-            items: 1 // 螢幕大小為 0~600 顯示 1 個項目
-            },
-            600: {
-            items: 2 // 螢幕大小為 600~1000 顯示 3 個項目
-            },
-            1000: {
-            items: 3 // 螢幕大小為 1000 以上 顯示 5 個項目
-            }
-  }
-});
-
-</script>
 
 
 </body>
