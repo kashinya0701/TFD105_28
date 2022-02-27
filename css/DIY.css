@@ -9,24 +9,25 @@
 .title_area{
 
     width: 80%;
-    height: 350px;
     background-color: rgba(255, 221, 68, 0.2);
     margin: 0 auto;
     text-align: center;
-    line-height: 350px;
+    line-height: 200px;
 }
 
 .open_time_area{
     width: 80%;
-    height: 450px;
+    /* height: 450px; */
     margin: 0 auto;
     text-align: center;
+    line-height: 150px;
+    padding-bottom: 40PX;
 }
 
 .open_time h2{
     text-align: left;
-    padding-left: 100px;
-    line-height: 200px;
+    padding-left: 5%;
+  
 }
 
 .open_time p{
@@ -34,14 +35,13 @@
 }
 .open_main_area{
     width: 80%;
-    height: 450px;
     margin: 0 auto;
     background-color: rgba(255, 221, 68, 0.2);
 }
 
 .diy_main h2{
     text-align: left;
-    padding-left: 40px;
+    padding-left: 5%;
     line-height: 150px;
 }
 
@@ -49,37 +49,45 @@
     text-align:left;
     display: block;
     margin: 0 auto;
-    padding: 0 40px 20px;   
+    padding: 0 5% 20px;   
 }
 
 
 
 .think_area{
     width: 80%;
-    height: 600px;
+    /* height: 600px; */
     margin: 0 auto;
     /* border: 2px solid; */
     display: flex;
-    justify-content: center;
-    /* align-items: center; */
+    /* justify-content: center; */
+    align-items: center;
 }
 
 .think_text{
-    margin: 0 75px;
-    line-height: 175px;
+    padding-left: 5%;
+    /* line-height: 175px; */
 }
 
 .think_text h2{
     /* border: aqua 2px solid;  */
-    margin: 76px 0 20px;
+    margin: 0 0 20px;
 }
 
 .think_text p{
    
-    width: 300px;
+    /* width: 300px;     */
 }
 
 .think_pic img{
-    height: 600px;
+    width: 100%;
+    display: block;
     /* border: aqua 2px solid; */
+}
+
+@media (max-width:600px) {
+    .title_area, .open_main_area, .open_time_area{
+        width: 100%;
+    }
+    
 }

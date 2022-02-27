@@ -48,6 +48,7 @@
 .hoka_total{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 .hoka_love1{
     width: 50%;
@@ -76,21 +77,37 @@
     width: 90%;
     display: block;
     border-radius: 25px;
+    transition: all 0.5s
 }
+.love_food i{
+    background-color: transparent;
+    color: transparent;
+}
+
+
 .hoka_love2{
     margin: 0 auto;
     padding-top:40px ;
     position: relative; 
+    text-align: center;
     
 }
-.hoka_love2 h1{
-    padding-bottom:60px;    
+.hoka_love2 h3{
+    padding-bottom:20px;    
 
 }
 
-.hoka_love2 h2{
-    padding-bottom: 60px;
-}
+.hoka_love2 p{
+    display: block;
+    background-color: #443426;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto 20px;
+    font-size: 18px;
+    }
 
 .hoka_love2 a{
 

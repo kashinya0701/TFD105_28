@@ -20,7 +20,7 @@
 .BGC_O{
     background-color: rgba(255, 221, 68 );
     width: 80%;
-    padding: 60px;
+    padding: 15px;
     margin: 0 auto;
     /* height: 300px; */
 
@@ -59,6 +59,14 @@ h1{
     margin-bottom:10px;
 }
 
+
 .home_main_bgc textarea{
     resize: none;
+    width: 80%;
+}
+
+@media (max-width:600px) {
+    .BGC_O{
+      width: 100%;
+    }    
 }
