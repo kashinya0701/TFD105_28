@@ -47,7 +47,7 @@
                         <div class="menu2">
                             <ul>
                                 <button type="button" class="hamburger_icon -on"></button>
-                                <li><a href="member.html"><i class="fas fa-user"></i></a></li>
+                                <li><a class= "btn popup-btn"href="#open"><i class="fas fa-user"></i></a></li>
                                 <li><a href="shop.html"><i class="fas fa-shopping-bag"></i></a></li>
                             </ul>
                             
@@ -162,67 +162,53 @@
 
 
  <!-- footer  -->
- <footer>
-    <div class="container">
+    <footer>
+        <div class="container">
 
-        <div class="footer_inner">
-            <div class="inner_left">
-                <div class="footer_link">
-                    <a class="contact_link" href="contact_us.html">聯絡我們</a>
-                    <a class="reservation_link" href="position.html">線上訂位</a>
+            <div class="footer_inner">
+                <div class="inner_left">
+                    <div class="footer_link">
+                        <a class="contact_link" href="contact_us.html">聯絡我們</a>
+                        <a class="reservation_link" href="position.html">線上訂位</a>
+                    </div>
+                    <div class="footer_logo">
+                        <a href="index.html" class="logo1">
+                            <img src="img/Logo.svg" alt="" class="pic1">
+                        </a>
+                    </div>
                 </div>
-                <div class="footer_logo">
-                    <a href="index.html" class="logo1">
-                        <img src="img/Logo.svg" alt="" class="pic1">
-                    </a>
+
+                <div class="inner_right">
+                    <div class="footer_map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231407.34130685634!2d121.29665639122226!3d25.008959138778188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abe6b0446815%3A0xf006dde8c27afcc7!2z57ev6IKyVGliYU1l6ZmE6Kit5Y-w5YyX6IG36KiT5Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1644158540739!5m2!1szh-TW!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="inner_right">
+                    <div class="footer_fb">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkaobukao014&tabs=timeline&width=400&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="400" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> 
+                    </div>
                 </div>
             </div>
 
-            <div class="inner_right">
-                <div class="footer_map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231407.34130685634!2d121.29665639122226!3d25.008959138778188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abe6b0446815%3A0xf006dde8c27afcc7!2z57ev6IKyVGliYU1l6ZmE6Kit5Y-w5YyX6IG36KiT5Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1644158540739!5m2!1szh-TW!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            </div>
-            <div class="inner_right">
-                <div class="footer_fb">
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkaobukao014&tabs=timeline&width=400&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="400" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> 
-                </div>
+            <div class="footer_aside">
+                <p>本網站為緯育TibaMe前端設計工程師班第74期學員專題作品，本平台僅供學習、展示之用。<br>參考資源: hololive official shop｜米哈遊｜Pinterest</p>
             </div>
         </div>
 
-        <div class="footer_aside">
-            <p>本網站為緯育TibaMe前端設計工程師班第74期學員專題作品，本平台僅供學習、展示之用。<br>參考資源: hololive official shop｜米哈遊｜Pinterest</p>
-        </div>
-    </div>
-
-</footer>
-<ul class="BackgroundCircle">
-    <li><span class="triangle"></span></li>
-    <li><span class="triangle"></span></li>
-    <li><span class="triangle"></span></li>
-    <li><span class="triangle"></span></li>
-    <li><span class="triangle"></span></li>
-    <li><span class="triangle"></span></li>
-    <li><span class="triangle"></span></li>
-</ul>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script>
-
-$(function(){
-    // 點擊按鈕，選單縮放
-      $("button.hamburger_icon").on("click", function(){
-          $(".top ul.ham-bar").slideToggle();
-           });
-      });
-
-   $(function(){
-    // 按鈕狀態的切換
-      $("button.hamburger_icon").on("click", function(){
-
-          $(this).toggleClass("-on");
-
-      });
-  });
-</script>
+        </footer>
+    <ul class="BackgroundCircle">
+        <li><span class="triangle"></span></li>
+        <li><span class="triangle"></span></li>
+        <li><span class="triangle"></span></li>
+        <li><span class="triangle"></span></li>
+        <li><span class="triangle"></span></li>
+        <li><span class="triangle"></span></li>
+        <li><span class="triangle"></span></li>
+    </ul>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./js/index.js"></script>
+    
+      
 </body>
 </html>

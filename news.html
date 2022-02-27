@@ -47,7 +47,7 @@
                         <div class="menu2">
                             <ul>
                                 <button type="button" class="hamburger_icon -on"></button>
-                                <li><a href="member.html"><i class="fas fa-user"></i></a></li>
+                                <li><a class= "btn popup-btn"href="#open"><i class="fas fa-user"></i></a></li>
                                 <li><a href="shop.html"><i class="fas fa-shopping-bag"></i></a></li>
                             </ul>
                             
@@ -174,23 +174,9 @@
         <li><span class="triangle"></span></li>
     </ul>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./js/index.js"></script>
     
-    $(function(){
-        // 點擊按鈕，選單縮放
-          $("button.hamburger_icon").on("click", function(){
-              $(".top ul.ham-bar").slideToggle();
-               });
-          });
-
-       $(function(){
-        // 按鈕狀態的切換
-          $("button.hamburger_icon").on("click", function(){
-  
-              $(this).toggleClass("-on");
-  
-          });
-      });
-    </script>
+      
     </body>
 </html>
