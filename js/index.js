@@ -68,21 +68,24 @@ $("#two").owlCarousel({
 });
 
 $(".popup-btn").click(function() {
-      var href = $(this).attr("href")
-      $(href).fadeIn(250);
+    var href = $(this).attr("href")
+    $(href).fadeIn(250);
     });
 
-    $(".popup-close").click(function() {
-      $(".popup-wrap").fadeOut(200);
+$(".popup-close").click(function() {
+    $(".popup-wrap").fadeOut(200);
     });
 
-    $(".signup").on("click",function(){
-      $(".login-form").addClass("off");
-      $(".signup-form").addClass("on"); 
+$(".signup").on("click",function(){
+    $(".login-form").addClass("off");
+    $(".signup-form").addClass("on"); 
     });
-    $(".login").on("click",function(){
-      $(".signup-form").removeClass("on");
-      $(".login-form").removeClass("off");
+$(".login").on("click",function(){
+    $(".signup-form").removeClass("on");
+    $(".login-form").removeClass("off");
     });	
-
-
+    
+    $(".test").click(function() {
+      $(".popup-wrap").fadeOut(200);
+      });
+ 
