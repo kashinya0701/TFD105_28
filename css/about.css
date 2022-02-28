@@ -28,6 +28,7 @@
 }
 .about_main_pic{
     /* border:2px solid purple; */
+    text-align: right;
     
 }
 
@@ -40,8 +41,7 @@
 
 .about_main_pic >img{
     width: 60%;
-    display: block;
-    margin-left: auto;
+    
     
 }
 
@@ -82,4 +82,19 @@
 }
 
 
+@media (max-width: 650px){
+    .about_main {
+        flex-flow: column;
+      
+    }
+    .about_main_pic{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .about_main_text {
+        width: 70%;
+        order: 1;
+    }
+    }
  
