@@ -1,4 +1,7 @@
-
+.main_menu li:nth-child(1){
+    border-bottom: 1px solid #fff1e6;
+    margin-bottom: -1px;
+}
 .food_menu_title h1{
     text-align: center;
     padding-top: 90px;

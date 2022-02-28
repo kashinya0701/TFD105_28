@@ -23,12 +23,7 @@
 }
 
 
-.color{
-    /* height: 800px; */
-    margin: 0 auto;
-    /* background-color: rgba(255, 221, 68, 0.2); */
-    padding-bottom: 30px;
-}
+
 
 .w200{
     width: 200px;
@@ -53,8 +48,9 @@
 }
 
 .text{
-    padding: 120px 60px;
+    padding: 0px 60px;
     line-height: 1.6;
+    order: 0;
 }
 
 .pic IMG{
@@ -65,3 +61,22 @@
     background-repeat: no-repeat;
 }
 
+@media (max-width:900px) {
+    .flex{
+        flex-flow: column;
+    }
+    .text{
+        order:1;
+        padding-top: 20px;
+        
+    }
+    .pic{
+        text-align: center;
+    }
+    
+}
+@media (max-width: 600px){
+.home_main_bgc {
+    width: 100%;
+}
+}

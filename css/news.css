@@ -1,4 +1,7 @@
-
+.main_menu .menu1 li:nth-child(2){
+    border-bottom: 1px solid #fff1e6;
+    margin-bottom: -1px;
+}
 
 .home_main_title h1{
     display: block;
@@ -25,10 +28,15 @@
     padding: 40px;
 
 }
+.home_main_title ul li img{
+    width: 500px;
+    height: 350px;
+}
 
 @media (max-width:650px) {
     .home_main_title ul li img{
         width: 300px;
+        height: 210px;
     }
     
 }

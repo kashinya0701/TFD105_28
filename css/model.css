@@ -139,10 +139,13 @@ nav{
 
 .menu1 li a:hover{
     border-bottom: 1px solid white;
+    margin-bottom: -1px;
+  }
   
-}
+
 
 /* 會員彈窗 */
+  
 .popup-wrap{
   background-color: rgba(0,0,0,.6);
   margin: 0;
@@ -156,17 +159,29 @@ nav{
   top: 0px;
   left: 0px;
   content: '';
-  z-index: 5;
+  z-index: 99;
   display: block;
 }
+.test{
+  position: absolute;
+    /* background: rgba(0,0,0,0.5); */
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* display: none; */
+    z-index: 1;
+}
+
 
 
 .popup-box {
   min-width: 320px;
-  width: 40%;
-  height: 65%;
+  width: 25 %;
+  /* height: 65%; */
   transform: translate(-50%, -50%);
   padding-top: 50px;
+  padding-bottom: 50px;
   position: absolute;
   top: 55%;
   left: 50%;
@@ -204,6 +219,7 @@ nav{
   border: 15px solid #ffcbf2;
   display: none;
 }
+
 .signup-form.on {
   display: block;
 }
@@ -217,6 +233,7 @@ p {
   color: #c6ac8f;
   padding-left: 25px;
 }
+
 .close-btn {
   position: absolute;
   top: 0px;
@@ -292,26 +309,8 @@ p {
   padding-top: 10px;
 }
  
- /* @media (min-width:1200px){ 
-    .top{
-      max-width: 1140px;
-    }
-  } 
-   @media (min-width:992px){
-    .top{
-      max-width: 960px;
-    }
-  }@media (min-width:768px){
-    .top{
-      max-width: 720px;
-    }
-  }@media (min-width:576px){
-    .top{
-      max-width: 540px;
-    }
-  }  */
-
-/* =======================header區========================= */
+ 
+/*=======================header區========================= */
 
 /* =============== main bgc ============*/
 .home_main_bgc{

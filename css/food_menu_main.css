@@ -1,7 +1,7 @@
-/* .main_menu li:nth-child(1){
+.main_menu li:nth-child(1){
     border-bottom: 1px solid #fff1e6;
     margin-bottom: -1px;
-} */
+}
 .bake {
     padding-left: 10%;
     padding-top: 10px;
