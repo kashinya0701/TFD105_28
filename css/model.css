@@ -179,7 +179,7 @@ nav{
 
 .login-form {
   font-size: 16px;
-  height: 350px;
+  /* height: 350px; */
   width: 300px;
   margin: 0 auto;
   margin-top: -7px;
@@ -194,7 +194,7 @@ nav{
 
 .signup-form {
   font-size: 16px;
-  height: 350px;
+  /* height: 350px; */
   width: 300px;
   margin: 0 auto;
   margin-top: -7px;

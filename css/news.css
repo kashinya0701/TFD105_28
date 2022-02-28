@@ -24,5 +24,11 @@
     text-align: center;
     padding: 40px;
 
+}
 
+@media (max-width:650px) {
+    .home_main_title ul li img{
+        width: 300px;
+    }
+    
 }
