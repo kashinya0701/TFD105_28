@@ -1,5 +1,42 @@
+/* .main_menu li:nth-child(1){
+    border-bottom: 1px solid #fff1e6;
+    margin-bottom: -1px;
+} */
+.bake {
+    padding-left: 10%;
+    padding-top: 10px;
+    
+}
+.bake a{
+    color: black;;
+}
+.bake a:nth-child(1){
 
+    position: relative;
+}
 
+.bake a:nth-child(2){
+    padding-left: 15px;
+}
+.bake a::before{
+    content: '';
+    position: absolute;
+    left:67px;
+    top:4px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+} 
+@media (max-width:620px) {
+    .bake {
+        text-align: center;
+        padding-right: 10%;
+        
+    
+    }
+}
 .home_spc_bgc{
     background-color: #FFDD44;
     width: 80%;
@@ -70,7 +107,7 @@
 
 .food_menu_detail > h1{
     text-align: center;
-    padding-top: 100px;
+    padding-top: 90px;
     padding-bottom: 40px;
 }
 
